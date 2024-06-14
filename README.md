@@ -68,7 +68,7 @@ It is important to note that some of the initial assumptions were the fact that 
   Now it is the time to discuss the actual key derivation algo. Since we need to provide Perfect Forward Secrecy, the Ephemeral Diffie Hellman key exchange derives a different session     key for...you guessed it, every session.
 
   
-
+  ![](diagr_crypto.drawio_Nonce.png)
 
 
 
