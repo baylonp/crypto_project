@@ -1,7 +1,7 @@
 # Crypto_project
 
 Through this project I aim at explaining few concepts about cryptography I have learnt along the way. 
-It is NOT a programming excercise, I am not showcasing my ability in writing C code, it is out of scope. What I want to exaplain are few cool concepts I understood while programming.
+It is NOT a programming excercise, I am not showcasing my ability in writing C code (not much, sry) , it is out of scope. What I want to explain are few cool concepts I understood while programming using OpenSSL 
 
 
 ## Project Details
