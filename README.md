@@ -78,7 +78,7 @@ If the user  didn't input the correct code sent to his email address, the rgistr
 
  We used [2]SMTP4dev to run a dummy SMTP server in a docker container that would intercept all the email going out( even the fake one) and display them in a fancy web panel.
 
- 
+ ![](screen_SMTP4DEV.png)
 
   
 
