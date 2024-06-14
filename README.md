@@ -47,6 +47,24 @@ Here it comes the best part. Since we must gurantee Perfect Forward Secrecy and 
 It is important to note that some of the initial assumptions were the fact that the client already knows the public key (RSA) of the server and we don't need to do do client authentication at the key level, just to implement it via a registration form (more on that later).
 
 
++ **First challenge** --> Authenticate the server w.r.t to the client so that an attacker can't do the MiTM attack.
+
+  Since both client and server need to exchange their Diffie Hellman publi key parameters in order to derive the **secret epheemral session key**, we want to make sure that the server
+  public DH parameters have their integrity guarateed.
+
+  We do this by concatenating them with their hash signed by the server private key(RSA). This way the client, when receiving them, can "decrypt" the hash with the sever public key(RSA)
+  and then compute the hash of what he received to check it againts the hash he received.
+
+  This method guarantees protection against MiTM attack. It will be clear once you'll see the figure of the protocol.
+
++ **Second challenge** --> Guarantee protection against Replay attack.
+  
+  To be compliant to this requirement we implement an exchange of a **client_nonce** so that when the server replies with all the things I wrote in the previouse section, the client       knows it is about this actual session.
+
+  
+  
+
+
 
 
 
