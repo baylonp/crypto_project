@@ -71,12 +71,25 @@ It is important to note that some of the initial assumptions were the fact that 
   ![](diagr_crypto.drawio_Nonce.png)
 
 
+## Cool feature
+
+Since it was asked to implement a sort of challenge-response for the client at the moment of registration, we thought of adding a random code sent from the server to the client.
+If the user  didn't input the correct code sent to his email address, the rgistration phase would stop.
+
+ We used [2]SMTP4dev to run a dummy SMTP server in a docker container that would intercept all the email going out( even the fake one) and display them in a fancy web panel.
+
+ 
+
+  
+
+
 
 
 
 
 ## References
 [1]https://man.openbsd.org/arc4random
+[2]https://github.com/rnwood/smtp4dev
 
 
 
