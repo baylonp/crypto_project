@@ -40,7 +40,7 @@ stands for Galois Counter Mode. It guarantees confidentiality and authentication
 to see if the data sent is the same as the data received. It also guarantees authentication for messages not intended to be ecnrypted (AAD) but we do not use it in this way.
 
 
-## Key agreement and Key Exchanging protocol
+## Key Agreement and Key Exchange protocol
 
 Here it comes the best part. Since we must gurantee Perfect Forward Secrecy and protection against MiTM and Replay attack, we devised a method that incorporate a sort of ***digital signature*** and ***Ephemeral Diffie-Hellman*** for key derivation.
 
