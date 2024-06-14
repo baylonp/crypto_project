@@ -1,7 +1,9 @@
 # Crypto_project
 
 Through this project I aim at explaining few concepts about cryptography I have learnt along the way. 
-It is NOT a programming excercise, I am not showcasing my ability in writing C code (not much, sry) , it is out of scope. What I want to explain are few cool concepts I understood while programming using OpenSSL 
+It is NOT a programming excercise, I am not showcasing my ability in writing C code (not much, sry) , it is out of scope. What I want to explain are few cool concepts I understood while programming using OpenSSL.
+
+This project has been developed with the help of Davide Di Rocco, a colleague of mine.
 
 
 ## Project Details
